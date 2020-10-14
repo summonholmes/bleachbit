@@ -19,7 +19,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 -->
-<cleaner id="discord">
+<cleaner id="vscode">
   <label>VSCode</label>
   <description>Editor</description>
   <running type="exe" os="windows">code.exe</running>
