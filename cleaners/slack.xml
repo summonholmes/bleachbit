@@ -19,14 +19,14 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 -->
-<cleaner id="discord">
-  <label>Discord</label>
+<cleaner id="slack">
+  <label>Slack</label>
   <description>Chat client</description>
-  <running type="exe" os="windows">discord.exe</running>
-  <running type="exe" os="linux">Discord</running>
+  <running type="exe" os="windows">slack.exe</running>
+  <running type="exe" os="linux">Slack</running>
   <var name="base">
     <value os="windows">%UserProfile%\AppData\Roaming\Slack</value>
-    <value os="linux">~/.config/slack</value>
+    <value os="linux">~/.config/Slack</value>
   </var>
   <option id="cache">
     <label>Cache</label>
