@@ -20,13 +20,13 @@
 
 -->
 <cleaner id="discord">
-  <label>VSCode</label>
-  <description>Editor</description>
-  <running type="exe" os="windows">code.exe</running>
-  <running type="exe" os="linux">code</running>
+  <label>Discord</label>
+  <description>Chat client</description>
+  <running type="exe" os="windows">discord.exe</running>
+  <running type="exe" os="linux">Discord</running>
   <var name="base">
-    <value os="windows">%UserProfile%\AppData\Roaming\Code</value>
-    <value os="linux">~/.config/Code</value>
+    <value os="windows">%UserProfile%\AppData\Roaming\Slack</value>
+    <value os="linux">~/.config/slack</value>
   </var>
   <option id="cache">
     <label>Cache</label>
